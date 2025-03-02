@@ -1,0 +1,319 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "AVENIRLTSTD";
+  src: local("Gothic"),
+    url("./assets/fonts/AVENIRLTSTD-MEDIUM.OTF") format("truetype");
+}
+
+body * {
+  font-family: "AVENIRLTSTD" !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.nav-btn-list li a {
+  color: white;
+  padding:  6px 10px;
+  border-radius: 25px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  background-color: #cb273a;
+}
+
+
+
+
+
+
+
+li {
+  list-style: none;
+  display: inline !important;
+  margin-right: 10px;
+}
+
+.bg-layer {
+  background-size: cover;
+  background-position: center bottom;
+  opacity: 0.8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button {
+  color: white;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+hr {
+  background-color: white;
+  color: white;
+}
+
+.img-pnl {
+  display: inline-block;
+  /* margin-right: 15px; */
+  /* margin-bottom: 8px; */
+}
+
+.img-pnl img {
+  /* max-width: 100%; */
+  /* margin: 0px auto; */
+  /* height: 60px; */
+  width: 80px;
+  height: 80px;
+}
+
+.box {
+  background-color: #ffffff11;
+  border: 1px solid #ffffff22;
+  border-radius: 30px;
+  padding: 7px;
+}
+.display-flexwaaaa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #c33027;
+  font-size: 22px;
+}
+
+.full-div {
+  display: inline-block;
+  width: 100%;
+}
+
+.input-rounder {
+  width: 100%;
+  /* display: flex; */
+  justify-content: space-between;
+}
+
+.input-rounder input{
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  /* padding-left: 70px; */
+  border: none;
+  font-size: 14px;
+  color: white;
+  background-color: #ffffff11;
+  border: 1px solid #ffffff22;
+}
+.input-rounder input:focus{
+  background-color: #ffffff11 !important; 
+  border: 1px solid #ffffff22 !important;
+}
+.flex-input-cntnr{margin-bottom: 10px;}
+.flex-input-cntnr input{
+  /* width: calc(100% - 145px); */
+  padding-left: 15px !important;
+}
+.custom_input
+{
+  
+  width: calc(100% - 10px);
+  margin-left: 10px !important;
+  border: 1px solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-div {
+  display: flex;
+  justify-content: space-between;
+}
+.empty-input {
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+.my-button {
+  border-radius: 10px;
+  padding: 10px 40px;
+  background-image: linear-gradient(to right, #6a0012, #cb273a);
+  /* box-shadow: 1px 1px #cb273a; */
+  /* border: 1px solid #cb273a; */
+  font-weight: 400 !important;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  width: 100%;
+  
+}
+.my-button1 {
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-image: linear-gradient(to right, #6a0012, #cb273a);
+  /* box-shadow: 1px 1px #cb273a; */
+  /* border: 1px solid #cb273a; */
+  font-weight: 400 !important;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  width: 100%;
+  
+}
+
+input:focus {
+  color: white !important;
+  border: none !important;
+  outline: none !important;
+  background-color: transparent !important; /* or any other color you want when user starts typing in input */
+}
+
+
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: gray !important;
+  opacity: 1 !important; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: gray !important;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: gray !important;
+}
+.col-sm-5 {
+  flex: 0 0 41.666667%;
+  max-width: 30.666667% !important;
+}
+.form-control1 {
+  display: block;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control:disabled, .form-control[readonly] {
+  background-color: #560d10 !important;
+  opacity: 1;
+}
+.nav-btn-list{padding-left: 0;}
+/* Shery Css Starts Here
+======================== */
+.ico-main-inner{
+  position: relative;width: 100%;
+  height: 100vh;display: flex;justify-content: center;align-items: center;
+  min-height: 700px;
+}
+@media(max-width:767px){
+  .ico-main-inner{height: auto;min-height: 100vh;padding-top: 120px;}
+}
+.ico-main-inner nav{
+  position: absolute;left: 0;top: 0;right: 0;z-index: 99999;
+  border-bottom: 1px solid #fff;padding-bottom: 10px;
+}
+
+@media(max-width:575px){
+  .main-div{padding:30px 15px !important;}
+  .flex-input-cntnr{display: inline-block !important;width: 100%;}
+  .flex-input-cntnr input{width: 100%;}
+  .ico-main-inner{
+    margin-top: 100x;
+  }
+  .input-rounder h1 li{font-size: 22px;}
+}
+/* Shery Css Ends Here
+====================== */
+
+
+.send-v2__amount-max__button {
+  width: 56px;
+  height: 20px;
+
+  border: 1px solid white;
+  border-radius: 100px;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: transparent;
+}
+.swal2-popup {
+  display: none;
+  position: relative;
+  box-sizing: border-box;
+  grid-template-columns: minmax(0,100%);
+  width: 32em;
+  max-width: 100%;
+  padding: 0 0 1.25em;
+  border: none;
+  border-radius: 5px;
+  background: #2e0708 !important;
+  color: white !important;
+  font-family: inherit;
+  font-size: 1rem;
+}
+.swal2-title {
+  position: relative;
+  max-width: 100%;
+  margin: 0;
+  font-family: 'AVENIRLTSTD' !important;
+  padding: 0.8em 1em 0;
+  color: inherit;
+  font-size: 1.5em !important;
+  font-weight: 100;
+  text-align: center;
+  text-transform: none;
+  word-wrap: break-word;
+}

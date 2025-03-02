@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.52d02685.chunk.css",
+    "main.js": "/static/js/main.54b2362a.chunk.js",
+    "main.js.map": "/static/js/main.54b2362a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ea29be16.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ea29be16.js.map",
+    "static/css/2.ccb004c0.chunk.css": "/static/css/2.ccb004c0.chunk.css",
+    "static/js/2.3bfca9d1.chunk.js": "/static/js/2.3bfca9d1.chunk.js",
+    "static/js/2.3bfca9d1.chunk.js.map": "/static/js/2.3bfca9d1.chunk.js.map",
+    "static/js/3.6ef26312.chunk.js": "/static/js/3.6ef26312.chunk.js",
+    "static/js/3.6ef26312.chunk.js.map": "/static/js/3.6ef26312.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ccb004c0.chunk.css.map": "/static/css/2.ccb004c0.chunk.css.map",
+    "static/css/main.52d02685.chunk.css.map": "/static/css/main.52d02685.chunk.css.map",
+    "static/js/2.3bfca9d1.chunk.js.LICENSE.txt": "/static/js/2.3bfca9d1.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/AVENIRLTSTD-MEDIUM.adcbfbb8.OTF",
+    "static/media/GOTHIC.b194aa2b.TTF": "/static/media/GOTHIC.b194aa2b.TTF",
+    "static/media/GOTHICB.861d2261.TTF": "/static/media/GOTHICB.861d2261.TTF",
+    "static/media/bg.3c1c5f7e.jpg": "/static/media/bg.3c1c5f7e.jpg",
+    "static/media/logomig.202c46bf.png": "/static/media/logomig.202c46bf.png",
+    "static/media/modal-bg.f102f1dd.png": "/static/media/modal-bg.f102f1dd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea29be16.js",
+    "static/css/2.ccb004c0.chunk.css",
+    "static/js/2.3bfca9d1.chunk.js",
+    "static/css/main.52d02685.chunk.css",
+    "static/js/main.54b2362a.chunk.js"
+  ]
+}
